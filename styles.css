@@ -7,14 +7,14 @@
 
 :root {
   --hue: 190;
-  --primary-color: hsl(170, 100%, 26%); 
-  --headline: hsl(210, 11%, 15%);
-  --paragraph: hsl(210, 9%, 31%);
+  --primary-color: #B20823; 
+  --headline: hsl(0, 11%, 15%);
+  --paragraph: hsl(0, 9%, 31%);
 
   --brand-beige: hsl(39, 100%, 97%);
-  --brand-light: hsl(148, 23%, 89%);
+  --brand-light: hsl(0, 23%, 89%);
   --brand-light-2 : hsl(calc(var(--hue) + 10), 14%, 97%);
-  --brand-dark: hsl(170, 100%, 14%);
+  --brand-dark: hsl(0, 100%, 14%);
 
   --bg-light: hsl(180, 14%, 97%);
 
@@ -146,6 +146,10 @@ nav.scroll {
 
 nav.scroll .logo path {
   fill: #fff;
+}
+
+.logo  h2 {
+  color: #fff
 }
 
 nav.scroll button path {
